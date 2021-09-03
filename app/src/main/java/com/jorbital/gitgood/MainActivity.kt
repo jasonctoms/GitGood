@@ -29,8 +29,8 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         binding.fab.setOnClickListener { view ->
-            Snackbar.make(view, "I made a change on master!", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+            Snackbar.make(view, "I am changing this on a feature branch", Snackbar.LENGTH_LONG)
+                .setAction("More changes", null).show()
         }
     }
 
