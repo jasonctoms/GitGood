@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.fab.setOnClickListener { view ->
             Snackbar.make(view, "I am changing this on a feature branch", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+                .setAction("More changes", null).show()
         }
     }
 
